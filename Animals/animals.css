@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#animalhero{
+  background-image: url(images/rabbit-1903016.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px 10px 10px 30px;
+  text-shadow: 4px 3px 0 #7a7a7a;
+}
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body{
+  background-color: beige;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+}
+nav{
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li{
+  display: inline;
+  font-size: 20px;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color:Lightgreen;
+}
+nav a:visited{
+  color:Lightblue;
+}
+nav a:hover{
+  color:Lightpink;
+}
+nav a:active{
+  color:black;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.fa-camera-retro {
+    font-size: 100px;
+    text-align: center;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+    color:Lightblue;
+}
+blockquote {
+    margin: 30px 0;
+    padding-left: 20px;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+footer{
+    margin: 40px 0 0 0;
+    display: block;
+}
+.footerhero{
+  background-size: cover;
+  background-position: center;
+  color: Lightgreen;
+  padding: 10px 10px 10px 30px;
+  text-shadow: 4px 3px 0 #7a7a7a;
+  background-repeat: no-repeat;
+}
